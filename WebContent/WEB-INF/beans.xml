@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="list" class="com.model.ListModel"/>
+	<bean id="content" class="com.model.ContentModel"/>
+	<bean id="insert" class="com.model.InsertModel"/>
+	<bean id="insert_ok" class="com.model.InsertOkModel"/>
+	<bean id="reply" class="com.model.ReplyModel"/>
+	<bean id="reply_ok" class="com.model.ReplyOKModel"/>
+	<bean id="delete" class="com.model.DeleteModel"/>
+	<bean id="delete_ok" class="com.model.DeleteOKModel"/>
+	<bean id="update" class="com.model.UpdateModel"/>
+	<bean id="update_ok" class="com.model.UpdateOKModel"/>
+	<bean id="comment" class="com.model.CommentModel"/>
+</beans>

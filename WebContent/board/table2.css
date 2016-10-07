@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+#table_connect{
+	border-collapse:collapse;
+	border-top-width:2ps;
+	border-bottom-width:1ps;
+	border-top-style:solid;
+	border-bottom-style:solid;
+	border-top-color:#333;
+	border-bottom-color:#333;
+}
+
+#table_connect th,td{
+	margin:0px;
+	padding:8px;
+	font-size:9pt;
+	color:black;
+}
+
+#table_connect th{
+	background-color:#999;
+	color:#fff;
+	border-bottom-width:1px;
+	border-bottom-color:#333;
+}
+
+#table_connect td{
+	border-bottom-width:1px;
+	border-bottom-color:#666;
+	border-bottom-style:dotted;
+}
